@@ -11,7 +11,6 @@ import UIKit
 class LoginTextItemView: UIView {
     
     var textparams: Textparams
-    var isLogin: Bool = false
     
     lazy var accImage: UIImageView = {
         let r = UIImageView()

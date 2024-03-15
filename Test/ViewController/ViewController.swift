@@ -45,7 +45,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         innerInit()
         innerLayout()
-//        loginNotification()
         mountedFunc()
     }
     

@@ -4,7 +4,7 @@
 //
 //  Created by yupaozcj on 2024/3/11.
 //
-
+//
 import Foundation
 import UIKit
 
@@ -42,14 +42,5 @@ extension LoginTextItemView: UITextFieldDelegate {
     
     func textFieldDidChangeSelection(_ textField: UITextField) {
         textparams.innerText = textField.text
-        isLogin = accountTextField.text!.lengthOfBytes(using: .utf8) == textparams.maxLength
-        var name: Notification.Name = Notification.Name("")
-        if textparams.maxLength == 11 {
-            name =  Notification.Name("phoneLogin")
-        } else {
-            name = Notification.Name("captchaLogin")
-        }
-        NotificationCenter.default.post(name: name, object: nil)
-//        block?(self)
     }
 }

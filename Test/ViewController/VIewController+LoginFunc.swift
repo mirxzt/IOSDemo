@@ -10,24 +10,6 @@ import UIKit
 
 extension ViewController {
     
-//    func loginNotification() {
-//        NotificationCenter.default.addObserver(self, selector: #selector(invokeLoginButtion), name: Notification.Name("phoneLogin"), object: nil)
-//        NotificationCenter.default.addObserver(self, selector: #selector(invokeLoginButtion), name: Notification.Name("captchaLogin"), object: nil)
-//    }
-//    
-//    @objc func invokeLoginButtion() {
-//        guard loginSection.accountInput.isLogin && loginSection.captchaInput.isLogin else{
-//            buttonAndprivacySection.loginButton.backgroundColor = .lightGray
-//            buttonAndprivacySection.loginButton.setTitleColor(.white, for: .normal)
-//            buttonAndprivacySection.loginButton.isEnabled = false
-//            return
-//        }
-//        buttonAndprivacySection.loginButton.backgroundColor = .systemBlue
-//        buttonAndprivacySection.loginButton.setTitleColor(.white, for: .normal)
-//        buttonAndprivacySection.loginButton.isEnabled = true
-//    }
-    
-    
     @objc func loginButtonClick() {
         
         guard buttonAndprivacySection.privacyButton.currentImage == UIImage(named: "icon_people_cer_select") else {

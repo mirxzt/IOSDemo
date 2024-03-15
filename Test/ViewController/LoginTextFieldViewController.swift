@@ -9,7 +9,6 @@ import Foundation
 import RxSwift
 import RxCocoa
 import SnapKit
-import Toast_Swift
 
 class LoginTextFieldViewController: UIViewController {
     private var viewModel: LoginTextFieldViewModel?
@@ -20,11 +19,7 @@ class LoginTextFieldViewController: UIViewController {
         
         viewModel = LoginTextFieldViewModel(
             acc: loginSection.accountInput.accountTextField.rx.text.orEmpty.asObservable() ,captcha:loginSection.captchaInput.accountTextField.rx.text.orEmpty.asObservable())
-        
-
-        viewModel?.accTextFilter.bind(to: loginSection.accountInput.accountTextField.rx.text).disposed(by: disposeBag)
-        viewModel?.capTextFilter.bind(to: loginSection.captchaInput.accountTextField.rx.text).disposed(by: disposeBag)
-    
+            
         viewModel?.loginButtonAllowed.subscribe(onNext: { valid in
             if valid {
                 loginButton.backgroundColor = .systemBlue

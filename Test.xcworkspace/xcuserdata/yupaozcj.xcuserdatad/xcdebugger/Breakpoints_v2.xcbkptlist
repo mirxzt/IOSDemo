@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6BFB3BB5-51AB-4E79-B647-C45BBB5215C6"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB1A990D-3113-45C6-A691-1DCAE85AD71B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Test/ViewModel/LoginTextFieldViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "init(acc:captcha:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB1A990D-3113-45C6-A691-1DCAE85AD71B - 8fe5ded634b4829f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Test.LoginTextFieldViewModel.init(acc: RxSwift.Observable&lt;Swift.String&gt;, captcha: RxSwift.Observable&lt;Swift.String&gt;) -&gt; Test.LoginTextFieldViewModel"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yupaozcj/Desktop/Test/Test/ViewModel/LoginTextFieldViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "AB1A990D-3113-45C6-A691-1DCAE85AD71B - 61a582ef16ec50e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; Swift.Bool in Test.LoginTextFieldViewModel.init(acc: RxSwift.Observable&lt;Swift.String&gt;, captcha: RxSwift.Observable&lt;Swift.String&gt;) -&gt; Test.LoginTextFieldViewModel"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yupaozcj/Desktop/Test/Test/ViewModel/LoginTextFieldViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "AB1A990D-3113-45C6-A691-1DCAE85AD71B - 8fe5ded634b4829f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Test.LoginTextFieldViewModel.init(acc: RxSwift.Observable&lt;Swift.String&gt;, captcha: RxSwift.Observable&lt;Swift.String&gt;) -&gt; Test.LoginTextFieldViewModel"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yupaozcj/Desktop/Test/Test/ViewModel/LoginTextFieldViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "AB1A990D-3113-45C6-A691-1DCAE85AD71B - 61a582ef16ec50e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; Swift.Bool in Test.LoginTextFieldViewModel.init(acc: RxSwift.Observable&lt;Swift.String&gt;, captcha: RxSwift.Observable&lt;Swift.String&gt;) -&gt; Test.LoginTextFieldViewModel"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yupaozcj/Desktop/Test/Test/ViewModel/LoginTextFieldViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "AB1A990D-3113-45C6-A691-1DCAE85AD71B - a8c84089782506e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.String) -&gt; Swift.Bool in Test.LoginTextFieldViewModel.init(acc: RxSwift.Observable&lt;Swift.String&gt;, captcha: RxSwift.Observable&lt;Swift.String&gt;) -&gt; Test.LoginTextFieldViewModel"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yupaozcj/Desktop/Test/Test/ViewModel/LoginTextFieldViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "AB1A990D-3113-45C6-A691-1DCAE85AD71B - ffdc1eab4a7eece7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.String) -&gt; Swift.Bool in Test.LoginTextFieldViewModel.init(acc: RxSwift.Observable&lt;Swift.String&gt;, captcha: RxSwift.Observable&lt;Swift.String&gt;) -&gt; Test.LoginTextFieldViewModel"
+                  moduleName = "Test"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yupaozcj/Desktop/Test/Test/ViewModel/LoginTextFieldViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

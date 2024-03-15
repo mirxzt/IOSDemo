@@ -10,17 +10,17 @@ import RxSwift
 import RxCocoa
 
 class LoginTextFieldViewModel {
-    let accTextFilter: Observable<String>
-    let capTextFilter: Observable<String>
+    let accTextLengthLimit: Observable<Bool>
+    let capTextLengthLimit: Observable<Bool>
     let loginButtonAllowed: Observable<Bool>
     
     init(acc: Observable<String>, captcha: Observable<String>) {
         
-        accTextFilter = acc.filter { $0 != "" }.filter{ Int($0) != nil }.filter{ $0.count <= 11 }.share(replay: 1)
+        accTextLengthLimit = acc.map{ $0.count == 11 }.share(replay: 1)
         
-        capTextFilter = captcha.filter { $0 != "" }.filter{ Int($0) != nil }.filter{ $0.count <= 4 }.share(replay: 1)
+        capTextLengthLimit = captcha.map{ $0.count == 4 }.share(replay: 1)
         
-        loginButtonAllowed = Observable.combineLatest(accTextFilter, capTextFilter) { ($0.count == 11 && $1.count == 4) }.share(replay: 1)
+        loginButtonAllowed = Observable.combineLatest(accTextLengthLimit, capTextLengthLimit) { ($0 && $1) }.share(replay: 1)
     }
 }
 	
